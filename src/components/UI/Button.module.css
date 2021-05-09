@@ -5,6 +5,7 @@
   color: white;
   padding: 0.25rem 1rem;
   cursor: pointer;
+  width: 100%;
 }
 
 .button:hover,
@@ -15,4 +16,10 @@
 
 .button:focus {
   outline: none;
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: auto;
+  }
 }
